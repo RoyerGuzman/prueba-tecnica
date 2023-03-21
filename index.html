@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <main>
+
+        <header>
+            <h1>Prueba tecnica</h1>
+        </header>
+        <section id="test1">
+            <header>
+                <h2>Prueba 1</h2>
+            </header>
+            <div class="descripcion">
+                <h3>EJERCICIO 1: LÓGICAS</h3>
+                <p>Escribe un programa en PHP, JS o Python que imprima una X construida a base de
+                    los símbolos /, \ y X (barra, contrabarra y letra X) y utilizar un doble espacio cuando
+                    no haya carácter.</p>
+                <p>Escribe un programa en PHP, JS o Python que imprima una X construida a base de
+                    los símbolos /, \ y X (barra, contrabarra y letra X) y utilizar un doble espacio cuando
+                    no haya carácter.</p>
+                <p>Escribe un programa en PHP, JS o Python que imprima una X construida a base de
+                    los símbolos /, \ y X (barra, contrabarra y letra X) y utilizar un doble espacio cuando
+                    no haya carácter.</p>
+                
+            </div>
+            <div class="respuesta">
+                <form id="formularioX">
+                    <label for="inputx">Ingresa el tamaño de la "X" a generar</label>
+                    <input type="number" min="0" value="5" name="inputx" id="inputx">
+                    <button id="buttonInputX">Generar</button>
+                </form>
+                <div id="resultadox">
+
+                </div>
+            </div>
+        </section>
+        <section id="test2">
+            <header>
+                <h2>Prueba 2</h2>
+            </header>
+            <div class="descripcion">
+
+            </div>
+            <div class="respuesta">
+
+            </div>
+        </section>
+        <section id="test3">
+            <header>
+                <h2>Prueba 3</h2>
+            </header>
+            <div class="descripcion">
+
+            </div>
+            <div class="respuesta">
+
+            </div>
+        </section>
+        <section id="test4">
+            <header>
+                <h2>Prueba 4</h2>
+            </header>
+            <div class="descripcion">
+                <p>Tenemos una api alojada en el dominio pruebas.zendha.net (es ficticio), al realizar
+                    una petición a esa api array de longitud desconocida que incluye objetos con los
+                    siguientes 4 datos como en el ejemplo.</p>
+                <p>Genera un objeto que haga una realice las siguientes acciones:</p>
+
+                <ol>
+                    <li>Petición a la HTTP a la dirección (prueba.zendha.net) parámetro GET facturas</li>
+                    <li>Genera un método para realizar cada una de las siguientes acciones:
+                        <ol>
+                            <li>IVA total devueltos</li>
+                            <li>Cantidad vendida a cada receptor (teniendo en cuenta que estos pueden
+                                repetirse)</li>
+                            <li>Periodos de las fechas en las que hay facturas.</li>
+                            <li>Genera una función que al pasar el resultado del ejercicio anterior genere
+                                una tabla hecha en FLEX.</li>
+                        </ol>
+                    </li>
+                </ol>
+            </div>
+            <div class="respuesta">
+
+
+                <div id="tabla">
+                    <div class="head">
+                        <div>Receptor</div>
+                        <div>Fecha</div>
+                        <div># factura</div>
+                        <div>subtotal</div>
+                        <div>IVA</div>
+                        <div>TOTAL</div>
+                    </div>
+                    <div id="datosTabla">
+
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
